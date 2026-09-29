@@ -1,0 +1,13 @@
+[project]
+name = "gemini-chat-companion"
+version = "0.1.0"
+description = "A document-aware conversational terminal app powered by Gemini."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=1.0.0",
+    "pypdf>=5.0.0",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
